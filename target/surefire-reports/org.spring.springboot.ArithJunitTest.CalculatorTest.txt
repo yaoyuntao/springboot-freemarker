@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.spring.springboot.ArithJunitTest.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.065 s <<< FAILURE! - in org.spring.springboot.ArithJunitTest.CalculatorTest
+testDiv2(org.spring.springboot.ArithJunitTest.CalculatorTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 出错了！实际结果与预期不符！ expected:<2> but was:<1>
+	at org.spring.springboot.ArithJunitTest.CalculatorTest.testDiv2(CalculatorTest.java:76)
+
