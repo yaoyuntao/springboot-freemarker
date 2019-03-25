@@ -41,7 +41,8 @@ public void testAdd() throws Exception {
 */ 
 @Test
 public void testSub() throws Exception { 
-//TODO: Test goes here... 
+//TODO: Test goes here...
+    Assert.assertEquals(5,c.sub(7,2));
 } 
 
 /** 
@@ -51,7 +52,8 @@ public void testSub() throws Exception {
 */ 
 @Test
 public void testMul() throws Exception { 
-//TODO: Test goes here... 
+//TODO: Test goes here...
+    Assert.assertEquals(10,c.mul(2,5));
 } 
 
 /** 
@@ -61,7 +63,8 @@ public void testMul() throws Exception {
 */ 
 @Test
 public void testDiv() throws Exception { 
-//TODO: Test goes here... 
+//TODO: Test goes here...
+    Assert.assertEquals(3,c.div(9,3));
 } 
 
 /** 
